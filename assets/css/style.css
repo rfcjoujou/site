@@ -1,0 +1,62 @@
+body {
+	margin:0;
+
+}
+#menunav {
+	background-color:#7b2b3e;
+	background-image: linear-gradient(to left, #7b2b3e, #491b26);
+
+} /* Menu com itens importante*/
+.navbar-brand {
+	margin-right:150px;
+} 
+#navbarMenu .navbar-nav a {
+	padding-right:20px;
+	padding-left: 20px;
+}
+.topo {
+	height:30px;
+	background-color:#35141c;
+	background-image: linear-gradient(to right, #35141c, #36242a);
+}
+.topint {
+	width:100%;
+	max-width:1040px;
+	margin:auto;
+	font-size:16px;
+}
+.topoleft {
+	float:right;
+}
+.acesso {
+	font-size:18px;
+	margin-right:42px;
+	line-height:30px;
+	
+	color:#FFF;
+}
+.toporight {
+	float:left;
+	width:70px;
+	margin-top:0px;
+	height:26px;
+	margin-left:10px;
+
+}
+.toporight ul {
+	float:left;
+	margin:auto;
+	line-height:30px;
+	padding-right:4px;
+	margin-left:-34px;
+}
+.toporight a {
+	float:left;
+}
+.toporight ul img {
+	
+	padding-right:5px;
+} /* Aqui seria o top de cima onde terá rede social e login */
+.toporight-rede ul a:hover {
+	background-color:#534347;
+}
